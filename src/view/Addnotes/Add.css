@@ -1,0 +1,41 @@
+
+
+.input-container {
+    height: fit-content;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Note-title {
+    color: aquamarine;
+    font-size: xX-large;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin: 40px;
+    text-shadow: rgb(19, 230, 160) 1px 0 10px;
+
+}
+
+.inputbox {
+    height: 50px;
+    width: 450px;
+    margin: 20px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: aquamarine;
+}
+
+.clear-btn {
+    background-color: black;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    padding: 10px;
+    margin: 86px 30px;
+}

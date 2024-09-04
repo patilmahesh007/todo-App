@@ -1,0 +1,82 @@
+.showcard-body {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-main-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    color: aquamarine;
+    
+
+}
+
+.show-card-container {
+    display: flex;
+    border: none;
+    margin: 16px 0;
+    position: relative;
+    height: 60px;
+    color: aquamarine;
+
+}
+
+.show-div-1 {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: aquamarine;
+
+}.show-delete{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: aquamarine;
+    height: 25px;
+
+}
+.show-category{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: aquamarine;
+
+}
+
+.show-emoji {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.show-div-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-div-2 h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: aquamarine;
+
+}
+
+.show-div-2 p {
+    margin: 4px 0;
+    color: #666;
+    color: aquamarine;
+
+}
+
+.show-category {
+    font-weight: bold;
+    color: #333;
+    color: aquamarine;
+
+}

@@ -1,0 +1,14 @@
+footer{
+    width: 100vw;
+    height: 5vh;
+    bottom: 0px;
+    background-color: rgba(128, 128, 128, 0.563);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0px;
+}
+
+.content{
+    margin: 5px auto;
+}

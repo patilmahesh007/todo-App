@@ -1,0 +1,19 @@
+.card-note{
+  height: 220px;
+  width: 280px;
+  border: 1px solid aquamarine;
+  border-radius: 10px;
+ padding: 10px;
+ margin: 10px;
+}
+span{
+  display: flex;
+}
+.image{
+  height: 130px;
+  margin: auto;
+ 
+}
+.description{text-align: justify;
+  color: aquamarine;
+}

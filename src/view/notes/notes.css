@@ -1,0 +1,34 @@
+.main-container{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.quick-notes{
+ font-size: x-large;
+display: block;
+color: aquamarine;
+
+}.notes-list{
+    display: flex;
+    justify-content: space-around;
+
+}
+.button-container{
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    
+}
+.notes-btn{
+    background-color: black;
+    height: 45px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+}
