@@ -1,29 +1,35 @@
-.main-container{
+.main-container {
     height: fit-content;
     width: 100vw;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
-.quick-notes{
- font-size: x-large;
-display: block;
-color: aquamarine;
-
-}.notes-list{
-    display: flex;
-    justify-content: space-around;
-
+.quick-notes {
+    font-size: 2rem;
+    color: aquamarine;
+    margin: 0;
 }
-.button-container{
+
+.notes-list {
     display: flex;
-    gap: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    height: 310px;
-    
+    margin: 20px 0;
 }
-.notes-btn{
+
+.notes-btn {
     background-color: black;
     height: 45px;
     width: 130px;
@@ -31,4 +37,34 @@ color: aquamarine;
     border-radius: 5px;
     color: aquamarine;
     border: 1px solid aquamarine;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .quick-notes {
+        font-size: 1.5rem;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .notes-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .quick-notes {
+        font-size: 1.2rem;
+    }
+
+    .notes-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .notes-btn {
+        width: 100%;
+    }
 }

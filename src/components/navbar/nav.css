@@ -4,3 +4,11 @@ top: 20px;
 left: 20px;
     height: 60px;
 }
+@media screen and (max-width: 500px){
+    .home{
+
+position: fixed;   
+top: 90vh;
+left: 80vw;
+}   
+}

@@ -1,5 +1,3 @@
-
-
 .input-container {
     height: fit-content;
     width: 100vw;
@@ -8,23 +6,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-.Note-title {
+.note-title {
     color: aquamarine;
-    font-size: xX-large;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    margin: 40px;
+    margin: 20px;
     text-shadow: rgb(19, 230, 160) 1px 0 10px;
-
 }
 
 .inputbox {
     height: 50px;
-    width: 450px;
-    margin: 20px;
+    width: 100%;
+    max-width: 450px;
+    margin: 10px;
     border: 1px solid aquamarine;
     border-radius: 5px;
     text-align: center;
@@ -36,6 +34,49 @@
     background-color: black;
     color: aquamarine;
     border: 1px solid aquamarine;
-    padding: 10px;
-    margin: 86px 30px;
+    padding: 10px 20px;
+    margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .note-title {
+        font-size: 1.5rem;
+    }
+    .input-container {
+        width: 90vw;
+    }
+    .inputbox {
+        width: 90%;
+        max-width: none;
+    }
+
+    .clear-btn {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .input-container {
+        padding: 10px;
+        width:78vw ;
+    }
+
+    .note-title {
+        font-size: 1.25rem;
+        margin: 10px;
+    }
+
+    .inputbox {
+        width: 100%;
+        max-width: 100%;
+        margin: 5px;
+    }
+
+    .clear-btn {
+        width: 100%;
+        padding: 8px;
+        margin: 5px;
+    }
+}
+
